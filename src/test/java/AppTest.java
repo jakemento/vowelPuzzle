@@ -37,9 +37,3 @@ public class AppTest extends FluentTest {
     assertEquals("th-s -s - s-mpl- -np-t s-nt-nc-", testApp.replaceVowels("this is a sample input sentence"));
   }
 }
-//   @Test
-//   public void replaceWords_findsAWordOrPartialWordAndReplacesAllThoseWords() {
-//     App testApp = new App();
-//     assertEquals("walking my dog to the cathedral", testApp.replaceWord("walking my cat to the cathedral", "cat", "dog"));
-//   }
-// }

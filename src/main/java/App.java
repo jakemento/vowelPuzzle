@@ -32,14 +32,8 @@ public class App {
 
 
 
-//   public static String replaceVowels(String userSentence, String wordToReplace, String replaceWith) {
-//     String[] userSentenceArray = userSentence.split("\\s+");
-//     for (Integer i = 0 ; i < userSentenceArray.length ; i++){
-//       if (wordToReplace.equals(userSentenceArray[i])) {
-//         userSentenceArray[i] = replaceWith;
-//       }
-//     }
-//     String newSentence = StringUtils.join(userSentenceArray, " ");
-//     return newSentence;
-//   }
+  public static String replaceVowels(String userSentence) {
+    String newUserSentence = userSentence.replaceAll("[a,e,i,o,u,A,I]","-");
+      return newUserSentence;
+  }
 }
