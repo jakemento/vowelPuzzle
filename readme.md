@@ -11,9 +11,7 @@ Program Setup Instructions
 
 navigate to the site, enter in a sentence, click submit, and you will see a puzzle to solve on the next page.
 
-Link
 
-http://jakemento.github.io/vowelPuzzle
 
 Legal
 
