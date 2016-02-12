@@ -21,6 +21,7 @@ public class AppTest extends FluentTest {
       goTo("http://localhost:4567/");
       assertThat(pageSource()).contains("a puzzle for you");
   }
+  
   @Test
   public void replaceVowels() {
     goTo("http://localhost:4567/");

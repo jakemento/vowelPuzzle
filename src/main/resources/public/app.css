@@ -2,7 +2,19 @@ h1 {
 color: blue;
 }
 
-img {
-  border: 20px;
-  border-style: dashed;
+title {
+  color: green;
+}
+
+.btn {
+  color: red;
+}
+
+p {
+  color: red;
+  font-size: 18px;
+}
+
+body {
+  background-color: #99ddff;
 }

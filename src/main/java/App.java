@@ -5,10 +5,13 @@ import spark.template.velocity.VelocityTemplateEngine;
 
 import static spark.Spark.*;
 
+
+
 public class App {
   static String userSentence;
   // static String newSentence;
   public static void main(String[] args) {
+    staticFileLocation("/public");
     String layout = "templates/layout.vtl";
 
 
@@ -48,7 +51,7 @@ public class App {
 
   public static String replaceVowels(String userSentence) {
     // userSentence.equals(userSentence);
-    String newUserSentence = userSentence.replaceAll("[a,e,i,o,u,A,I]","-");
+    String newUserSentence = userSentence.replaceAll("[aeiouAI]","-");
 
       return newUserSentence;
 
