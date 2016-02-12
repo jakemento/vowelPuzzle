@@ -34,4 +34,6 @@ public class AppTest extends FluentTest {
     App testApp = new App();
     assertEquals("th-s -s - s-mpl- -np-t s-nt-nc-", testApp.replaceVowels("this is a sample input sentence"));
   }
+
+
 }
