@@ -17,7 +17,7 @@ public class App {
 
     get("/results", (request, response) -> {
       HashMap<String, Object> model = new HashMap<String, Object>();
-      model.put("template", "templates/detector.vtl");
+      model.put("template", "templates/results.vtl");
 
       String userSentence = request.queryParams("sentence");
 
