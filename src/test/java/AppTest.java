@@ -21,16 +21,14 @@ public class AppTest extends FluentTest {
       goTo("http://localhost:4567/");
       assertThat(pageSource()).contains("a puzzle for you");
   }
-//   @Test
-//   public void replaceWord() {
-//     goTo("http://localhost:4567");
-//     fill("#sentence").with("I am a cat");
-//     fill("#replaceWord").with("cat");
-//     fill("#replaceWith").with("dog");
-//     submit(".btn");
-//     assertThat(pageSource()).contains("I am a dog");
-//   }
-//
+  @Test
+  public void replaceVowels() {
+    goTo("http://localhost:4567");
+    fill("#sentence").with("a test");
+    submit(".btn");
+    assertThat(pageSource()).contains("-");
+  }
+
   @Test
   public void replaceVowels_findsAnyVowelsAndReplacesThemWithHyphens() {
     App testApp = new App();
