@@ -14,13 +14,13 @@ public class AppTest extends FluentTest {
       return webDriver;
   }
 
-//   @ClassRule
-//   public static ServerRule server = new ServerRule();
-//   @Test
-//   public void rootTest() {
-//       goTo("http://localhost:4567/");
-//       assertThat(pageSource()).contains("in a sentence");
-//   }
+  @ClassRule
+  public static ServerRule server = new ServerRule();
+  @Test
+  public void rootTest() {
+      goTo("http://localhost:4567/");
+      assertThat(pageSource()).contains("a puzzle for you");
+  }
 //   @Test
 //   public void replaceWord() {
 //     goTo("http://localhost:4567");
