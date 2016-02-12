@@ -23,7 +23,7 @@ public class AppTest extends FluentTest {
   }
   @Test
   public void replaceVowels() {
-    goTo("http://localhost:4567");
+    goTo("http://localhost:4567/");
     fill("#sentence").with("a new test");
     submit(".btn");
     assertThat(pageSource()).contains("- n-w t-st");
