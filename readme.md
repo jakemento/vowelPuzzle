@@ -9,6 +9,8 @@ This is a website I created for my first Java code review. Its main function is 
 
 Program Setup Instructions
 
+clone this repo: https://github.com/jakemento/vowelPuzzle
+
 navigate to the site, enter in a sentence, click submit, and you will see a puzzle to solve on the next page.
 
 
